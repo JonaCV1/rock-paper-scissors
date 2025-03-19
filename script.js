@@ -9,7 +9,7 @@ function getComputerChoice() {
   } else if (randomInt(3) == 1) {
     return "Paper";
   } else {
-    return "Scissors";
+    return "Scissor";
   }
 }
 
