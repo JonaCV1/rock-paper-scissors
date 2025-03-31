@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+HU:wght@100..400&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Rock Paper Scissor</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <p>Select one option to play:</p>
+      <ul>
+        <li><button id="Rock">Rock</button></li>
+        <li><button id="Paper">Paper</button></li>
+        <li><button id="Scissor">Scissor</button></li>
+      </ul>
+      <p class="round"></p>
+      <p class="score"></p>
+      <p class="result">Lets play!</p>
+    </main>
+  </body>
 </html>
